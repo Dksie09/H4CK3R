@@ -11,7 +11,7 @@ import SwiftUI
 struct H4CK3R_NewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(networkManager: NetworkManager())
         }
     }
 }
